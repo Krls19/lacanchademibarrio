@@ -1,0 +1,36 @@
+def bienvenida():
+    print("Bienvenido a sistema de arriendo cachas pichulotote")
+    print("este es el sistema para poder revisar si tiene la cancha arrendada.")        
+def selec_cancha():
+    i=1
+    while(i==1):
+        cancha= int(input("selecione la cancha que desea:\n 1-futsal \n 2-baby futbol \n  "))
+        if (cancha==1):
+            selecion = "futsal"
+        else:
+            selecion = "Baby Futbol"
+        if(cancha == 1 or cancha == 2):
+            print("la opcion selecionada es ",selecion,"esta seguro?")
+            seguro=input("Y= si estoy seguro, N= no es la opcion que quiero: ")
+            if (seguro == "y"):
+                i=0
+            else:
+                i=1
+        else:
+            print("la opcion indicada no es valida vuelva ingresar la cancha que se solicita")
+            i=1
+    return cancha    
+def usar_cancha(cancha):
+    i=1
+    while (i==1):
+        if (cancha == 1):
+            fecha=input("ingrese la fecha que quiere arrendar la canha de futsal: ")
+            hora=input("ingrese la hora que quiere arrebndar la cancha de futdal: ")
+            i=0
+        elif (cancha == 2):
+            fecha=input("ingrese la fecha que quiere arrendar la canha de baby futbol (DD-MM-AAAA) ")
+            hora= input("ingrese la hora que quiere arrebndar la cancha de baby futbol (HH:MM) ")
+            i=0
+        else:
+            print("opcion no valida vuelva ingresar fecha")
+            i=1
