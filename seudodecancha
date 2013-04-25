@@ -1,0 +1,50 @@
+2 Canchas Futbol
+Fechas - Cualquier día del mes (ver meses con distinta cantidad de días)
+Horario 08:00hrs a 24:00hrs
+funcion hora
+funcion fecha
+
+Tabla canchas/arriendo
+- hora
+- fecha
+- run
+- nombre
+- correo
+- numero
+
+18:00hrs, 15-12-2013, 1-9, eduardo, e@e.com, 02 22345678
+
+- futsal 
+- fecha y hora (18-02-2011 18:00hrs)
+- fecha disponible
+- datos para reserva
+- nombre
+- rut
+- correo
+- celular
+- reserva realizada
+- fecha no disponible
+- necesita seguir buscando una fecha disponible?
+- ingrese fecha y hora diferente
+- fecha disponible
+- nombre
+- rut
+- validador de rut
+- correo
+- celular
+- reserva realizada
+- sugerencia de fechas
+- 2 horas antes/despues
+- fecha disponible
+- nombre
+- rut
+- validador de rut
+- correo
+- celular
+- reserva realizada
+- formato invalido
+- vuelva a ingresar hora/fecha
+- sucede lo mismo de - fecha y hora
+- formato invalido
+- vuelva a ingresar hora/fecha
+ 
