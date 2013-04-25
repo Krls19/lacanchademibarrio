@@ -1,18 +1,4 @@
-=1
-print("Bienvenido a sistema de arriendo cachas pichulotote")
-print("este es el sistema para poder revisar si tiene la cancha arrendada.")
-# bueno  phyton
-while(i==1):
-    cancha = int(input("que cancha solicitan 1-Futsal 2- Baby Futbol: "))
-    if(cancha == 1 or cancha == 2):
-        print(
-        i=0
-    else:
-        print("la opcion indicada no es valida vuelva ingresar la cancha que se solicita")
-        i=1
-if (cancha == 1):
-        fecha=int(input("ingrese la fecha que quiere arrendar la canha de futsal: ")
-        hora=int(input("ingrese la hora que quiere arrebndar la cancha de futdal: ")             
-if (cancha == 2):
-        fecha=int(input("ingrese la fecha que quiere arrendar la canha de futsal: ")
-        hora=int(input("ingrese la hora que quiere arrebndar la cancha de futdal: ")
+import modulo
+modulo.bienvenida()
+modulo.usar_cancha(modulo.selec_cancha())
+
